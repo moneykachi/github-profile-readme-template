@@ -1,28 +1,67 @@
 # GitHub Profile README Template
 
-A reusable, modern GitHub Profile README blueprint for developers, students, designers, engineers, and other creators.
+<div align="center">
 
-Build a polished GitHub profile with animated headers, typing text, skill icons, project cards, GitHub statistics, contribution snake, trophies, and social links — without a framework or backend.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=180&section=header&text=GitHub%20Profile%20README&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+
+**A clean, animated GitHub profile blueprint for developers, students, designers, engineers, and creators.**
+
+[Use the Template](https://github.com/moneykachi/github-profile-readme-template)
+·
+[View the Blueprint](./PROFILE_README.md)
+·
+[Contribute](./CONTRIBUTING.md)
+
+</div>
+
+---
+
+## What This Is
+
+This repository contains a reusable GitHub Profile README blueprint inspired by modern developer portfolio design.
+
+It helps you build a profile with:
+
+- Animated header and footer
+- Typing animation
+- Personal introduction
+- Technology and skill icons
+- Project cards
+- GitHub repository cards
+- GitHub statistics
+- Top languages
+- Contribution streak
+- Contribution snake
+- GitHub trophies
+- Social links
+- A clean dark developer aesthetic
+
+No React, backend, database, or build system is required. Your final profile is simply a Markdown README enhanced with HTML and public image services.
+
+---
 
 ## Quick Start
 
-### 1. Create your GitHub profile repository
+### Option 1: Copy the blueprint
 
-Create a **public repository with the exact same name as your GitHub username**.
+Open [`PROFILE_README.md`](./PROFILE_README.md), copy the sections you want, and paste them into your GitHub profile repository.
 
-For example, if your username is `johndoe`, your profile repository must be:
+### Option 2: Use GitHub's template workflow
 
-```text
-johndoe
-```
+1. Click **Use this template** on this repository.
+2. Create your own repository.
+3. If you are building your personal profile, rename the repository to **exactly match your GitHub username**.
+4. Open `PROFILE_README.md`.
+5. Copy it into your profile repository as `README.md`.
+6. Replace all placeholders with your information.
 
-### 2. Copy the template
+> GitHub only displays a profile README automatically when the repository is public and its name exactly matches your username.
 
-Open [`PROFILE_README.md`](./PROFILE_README.md), copy the sections you want, and paste them into the `README.md` of your profile repository.
+---
 
-### 3. Replace the placeholders
+## Customize Your Profile
 
-Search for and replace:
+Search the template for these placeholders:
 
 ```text
 YOUR_NAME
@@ -30,51 +69,161 @@ YOUR_USERNAME
 YOUR_TITLE
 YOUR_REPOSITORY
 YOUR_PORTFOLIO_URL
+YOUR_FIRST_LINE
+YOUR_SECOND_LINE
+YOUR_THIRD_LINE
 ```
 
-Then customize your bio, skills, projects, certifications, and links.
+Then customize:
 
-### 4. Add the contribution snake
+- Your bio
+- Current work
+- Skills and technologies
+- Featured projects
+- Certifications
+- Learning goals
+- GitHub username
+- LinkedIn
+- Portfolio
+- Other social links
+- Theme and colors
 
-Copy [`.github/workflows/snake.yml`](./.github/workflows/snake.yml) into your profile repository at the same path. Run the workflow once from the **Actions** tab, then let the scheduled workflow update the snake automatically.
+---
 
-## Included
+## Template Architecture
 
-- Animated profile header and footer
-- Typing animation
-- About section
-- Skill icons
-- Project cards
-- GitHub repository cards
-- GitHub statistics
-- Top languages
-- GitHub streak
-- Contribution snake
-- GitHub trophies
-- Social links
-- MIT license
+```text
+Animated Header
+       |
+       v
+Typing Animation
+       |
+       v
+About Me
+       |
+       v
+Technology Stack
+       |
+       v
+Current Work
+       |
+       v
+Featured Projects
+       |
+       v
+GitHub Statistics
+       |
+       v
+GitHub Streak
+       |
+       v
+Contribution Snake
+       |
+       v
+Certifications / Learning
+       |
+       v
+GitHub Trophies
+       |
+       v
+Social Links
+       |
+       v
+Animated Footer
+```
 
-## Repository Structure
+---
+
+## Contribution Snake
+
+The repository includes a reusable GitHub Actions workflow at:
+
+```text
+.github/workflows/snake.yml
+```
+
+Copy that workflow into your own profile repository. It generates the contribution snake automatically and updates it on a schedule.
+
+After copying it:
+
+1. Open the **Actions** tab.
+2. Select **Generate Contribution Snake**.
+3. Run the workflow manually once.
+4. Confirm that the workflow completes successfully.
+5. Add the generated snake image to your README.
+
+---
+
+## Project Structure
 
 ```text
 github-profile-readme-template/
-├── README.md
-├── PROFILE_README.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── .gitignore
-└── .github/
-    └── workflows/
-        └── snake.yml
+|
+|-- README.md
+|-- PROFILE_README.md
+|-- CONTRIBUTING.md
+|-- LICENSE
+|-- .gitignore
+|
+`-- .github/
+    `-- workflows/
+        `-- snake.yml
 ```
+
+---
 
 ## External Services
 
-The visual components use public services including Capsule Render, Readme Typing SVG, Skill Icons, GitHub Readme Stats, GitHub Streak Stats, GitHub Profile Trophy, and Platane/snk.
+The visual components use public services:
+
+| Service | Purpose |
+| --- | --- |
+| Capsule Render | Animated header and footer |
+| Readme Typing SVG | Typing animation |
+| Skill Icons | Technology icons |
+| GitHub Readme Stats | GitHub statistics and repository cards |
+| GitHub Streak Stats | Contribution streak |
+| GitHub Profile Trophy | Profile achievements |
+| Platane/snk | Contribution snake |
+
+These services are optional. You can remove any section you do not want.
+
+---
+
+## Design Philosophy
+
+The template is intentionally:
+
+- Minimal
+- Professional
+- Developer-focused
+- Easy to customize
+- Easy to understand
+- Framework-free
+- Friendly to beginners
+- Suitable for students and professionals
+
+The goal is to make a GitHub profile feel like a lightweight developer portfolio without requiring a separate website.
+
+---
 
 ## Contributing
 
-Suggestions, improvements, accessibility fixes, and new reusable sections are welcome. See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+Ideas and improvements are welcome.
+
+You can contribute by:
+
+- Adding new reusable sections
+- Improving accessibility
+- Fixing broken examples
+- Improving documentation
+- Adding new theme ideas
+- Updating outdated services
+- Improving the contribution workflow
+
+Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) before opening a pull request.
+
+---
 
 ## License
 
@@ -82,4 +231,8 @@ This project is available under the [MIT License](./LICENSE).
 
 ---
 
-Made to help developers turn a GitHub profile into a personal developer portfolio.
+<div align="center">
+
+**Build your profile. Show your work. Make your GitHub yours.**
+
+</div>
